@@ -24,12 +24,18 @@ public class Reindeer
     public Reindeer(String theName, boolean theNoseGlows, int theEnergy)
     {
         // TO DO: initialise the reindeer's attributes
-        
+        name = theName;
+        noseGlows = theNoseGlows;
+        energy = theEnergy;
         
         
         // TO DO: update the class (static variables)
-        
-        
+        numOfReindeer++;
+        if(noseGlows)
+        {
+            totalLights++;
+        }
+        totalEnergy += energy;
     }
     
     // TODO: Write a getter method for each instance variable
