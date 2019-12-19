@@ -74,7 +74,15 @@ public class Reindeer
     public String toString()
     {
         // TODO: code here
-        return "interesting description";
+        String starter = "This reindeer is named " + name + "./n";
+        if(noseGlows == true)
+        {
+            starter += name + "'s nose glows!!/n";
+        }
+        else{
+            starter += name + "'s nose doesn't glow :(/n";
+        }
+        return starter;
     }
     
     
@@ -84,7 +92,7 @@ public class Reindeer
     public String determineTeamHappiness()
     {
         // TODO: code here
-        return "how happy is the team of reindeer"; 
+        return "This is one happy reindeer"; 
     }
         
 }
