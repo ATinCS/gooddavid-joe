@@ -1,7 +1,7 @@
 /**
  * class Reindeer 
  * Learn GitHub version control for collaborative projects
- * Human Team Member Names: 
+ * Dillon Aldrich, Andrew Poirier, Jackson Winslow, Luke Willet: 
  * December 19, 2019
  */
 public class Reindeer
@@ -41,26 +41,25 @@ public class Reindeer
     public String getName()
     {
         // TODO: code here
-        return null;
+        return name;
     }
     
     public boolean doesNoseGlow()
     {
         // TODO: code here
-        return false;
+        return noseGlows;
     }
     
     public int getEnergyLevel()
     {
         // TODO: code here
-        return 0;
+        return energy;
     }
     
     // TODO: Write a setter method for each instance variable
     public void changeName(String name)
     {
         // TODO: code here
-        
     }
     
     public void setNoseAbility(boolean nG)
