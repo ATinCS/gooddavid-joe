@@ -1,8 +1,7 @@
-
 /**
  * class Reindeer 
  * Learn GitHub version control for collaborative projects
- * Human Team Member Names: 
+ * Dillon Aldrich, Andrew Poirier, Jackson Winslow, Luke Willet: 
  * December 19, 2019
  */
 public class Reindeer
@@ -24,31 +23,37 @@ public class Reindeer
     public Reindeer(String theName, boolean theNoseGlows, int theEnergy)
     {
         // TO DO: initialise the reindeer's attributes
-        
+        name = theName;
+        noseGlows = theNoseGlows;
+        energy = theEnergy;
         
         
         // TO DO: update the class (static variables)
-        
-        
+        numOfReindeer++;
+        if(noseGlows)
+        {
+            totalLights++;
+        }
+        totalEnergy += energy;
     }
     
     // TODO: Write a getter method for each instance variable
     public String getName()
     {
         // TODO: code here
-        return null;
+        return name;
     }
     
     public boolean doesNoseGlow()
     {
         // TODO: code here
-        return false;
+        return noseGlows;
     }
     
     public int getEnergyLevel()
     {
         // TODO: code here
-        return 0;
+        return energy;
     }
     
     // TODO: Write a setter method for each instance variable
@@ -87,7 +92,15 @@ public class Reindeer
     public String toString()
     {
         // TODO: code here
-        return "interesting description";
+        String starter = "This reindeer is named " + name + "./n";
+        if(noseGlows == true)
+        {
+            starter += name + "'s nose glows!!/n";
+        }
+        else{
+            starter += name + "'s nose doesn't glow :(/n";
+        }
+        return starter;
     }
     
     
@@ -97,7 +110,7 @@ public class Reindeer
     public String determineTeamHappiness()
     {
         // TODO: code here
-        return "how happy is the team of reindeer"; 
+        return "This is one happy reindeer"; 
     }
         
 }
