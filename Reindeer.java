@@ -2,7 +2,7 @@
 /**
  * class Reindeer 
  * Learn GitHub version control for collaborative projects
- * Dillon Aldrich, Andrew Poirier, Jackson Winslow: 
+ * Dillon Aldrich, Andrew Poirier, Jackson Winslow, Luke Willet: 
  * December 19, 2019
  */
 public class Reindeer
