@@ -1,8 +1,8 @@
 /**
  * class Reindeer 
  * Learn GitHub version control for collaborative projects
- * Dillon Aldrich, Andrew Poirier, Jackson Winslow, Luke Willet: 
- * December 19, 2019
+ * Dillon Aldrich, Andrew Poirier, Jackson Winslow, Luke Willett: 
+ * January 6, 2020
  */
 public class Reindeer
 {
@@ -67,16 +67,14 @@ public class Reindeer
     {
         // TODO: code here (don't forget to also update totalLights)
         noseGlows = nG;
-        if(noseGlows != nG)
+        
+        if(nG == false)
         {
-            if(nG == false)
-            {
-                totalLights--;
-            }
-            else
-            {
-                totalLights++;
-            }
+            totalLights--;
+        }
+        else
+        {
+            totalLights++;
         }
         
     }
@@ -97,7 +95,8 @@ public class Reindeer
         {
             starter += name + "'s nose glows!!\n";
         }
-        else{
+        else
+        {
             starter += name + "'s nose doesn't glow :(\n";
         }
         return starter;
@@ -110,7 +109,11 @@ public class Reindeer
     public String determineTeamHappiness()
     {
         // TODO: code here
-        return "This is one happy reindeer"; 
+        if((totalEnergy / numOfReindeer) >= 20)
+        {
+            return "All reindeer are happy \n";
+        }
+        return "Not all reindeer are happy \n"; 
     }
         
 }
