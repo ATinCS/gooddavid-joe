@@ -92,13 +92,13 @@ public class Reindeer
     public String toString()
     {
         // TODO: code here
-        String starter = "This reindeer is named " + name + "./n";
+        String starter = "This reindeer is named " + name + ".\n";
         if(noseGlows == true)
         {
-            starter += name + "'s nose glows!!/n";
+            starter += name + "'s nose glows!!\n";
         }
         else{
-            starter += name + "'s nose doesn't glow :(/n";
+            starter += name + "'s nose doesn't glow :(\n";
         }
         return starter;
     }
