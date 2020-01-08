@@ -52,7 +52,7 @@ public class JackWinslowReinRunner
         
         System.out.println(geoffrey.toString());
         
-        System.out.println("Is " + geoffrey.getName() + " happy?");
+        System.out.println("Is the team happy?");
         
         System.out.println(geoffrey.determineTeamHappiness());
         
