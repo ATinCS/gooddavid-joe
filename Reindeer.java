@@ -109,7 +109,6 @@ public class Reindeer
     public String determineTeamHappiness()
     {
         // TODO: code here
-<<<<<<< HEAD
         if(noseGlows = true)
         {
             return "This is one happy reindeer!";
@@ -117,13 +116,6 @@ public class Reindeer
         else{
             return "This reindeer is sad:(\nChange its nose ability!";
         }
-=======
-        if((totalEnergy / numOfReindeer) >= 20)
-        {
-            return "All reindeer are happy \n";
-        }
-        return "Not all reindeer are happy \n"; 
->>>>>>> 6ebc37f9b1263e66adb430408848a2de1684c40f
     }
         
 }
